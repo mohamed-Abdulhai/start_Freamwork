@@ -1,0 +1,14 @@
+.contact{
+    height: 120vh;
+}
+.contact h2 {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+.contact .line {
+    height: 5px;
+    width: 150px;
+    color: #2C3E50;
+    background-color: #2C3E50;
+}

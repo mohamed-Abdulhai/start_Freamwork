@@ -1,0 +1,30 @@
+.portfolio{
+    height: 130vh;
+}
+.portfolio h2{
+    color: #2C3E50;
+    font-weight: bold;
+}
+.portfolio .line {
+    height: 5px;
+    width: 150px;
+    color: #2C3E50;
+    background-color: #2C3E50;
+}
+.box{
+    position: relative;
+    cursor: pointer;
+}
+.box .layer{
+    background-color: #1abc9ca5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.box:hover .layer{
+    opacity: 1;
+}
